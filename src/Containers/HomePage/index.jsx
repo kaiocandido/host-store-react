@@ -1,4 +1,4 @@
-import { Banner, Container, Footer, Main, NavContainer, Plans } from "./styles";
+import { Banner, Container, Main, NavContainer, Plans } from "./styles";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments, faRocket, faShieldAlt } from '@fortawesome/free-solid-svg-icons'; // Importando o ícone
 import Logo from '../../assets/hdchostlogo.png'
@@ -27,19 +27,19 @@ function Home() {
                 <section className="specialties-container">
                     <ul>
                         <li>
-                            <FontAwesomeIcon icon={faShieldAlt} className="icon" />
+                            <FontAwesomeIcon icon={faShieldAlt} className="faShieldAlt" />
                             <h3>Segurança</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente necessitatibus voluptas ab fugit, atque dolorem quasi. Tenetur deleniti tempore quisquam sapiente nihil voluptas dicta? Consequuntur dignissimos ea accusamus laboriosam facere.</p>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faRocket} className="icon" />
+                            <FontAwesomeIcon icon={faRocket} className="faRocket" />
                             <h3>Velocidade</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente necessitatibus voluptas ab fugit, atque dolorem quasi. Tenetur deleniti tempore quisquam sapiente nihil voluptas dicta? Consequuntur dignissimos ea accusamus laboriosam facere.</p>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faComments} className="icon" />
+                            <FontAwesomeIcon icon={faComments} className="faComments" />
                             <h3>Suporte</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente necessitatibus voluptas ab fugit, atque dolorem quasi. Tenetur deleniti tempore quisquam sapiente nihil voluptas dicta? Consequuntur dignissimos ea accusamus laboriosam facere.</p>
                         </li>
@@ -122,9 +122,6 @@ function Home() {
                     </form>
                 </section>
             </Main>
-            <Footer>
-                <p>KAIO@2024</p>
-            </Footer>
         </Container>
     )
 }
