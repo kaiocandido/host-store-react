@@ -1,8 +1,49 @@
-# React + Vite
+# Host Store React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de uma aplicação web chamada **Host Store**, desenvolvida com HTML, CSS e React, hospedada na plataforma Vercel. O objetivo do projeto é criar uma loja online simples com a possibilidade de interagir com a interface.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **HTML5**: Estrutura da página web.
+- **CSS3**: Estilização da página.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Vercel**: Plataforma de implantação para front-end.
+
+<a src="https://host-store-react-git-main-kaios-projects-b7dff787.vercel.app/?vercelToolbarCode=h35EmeGg68_bDpv">Site</a>
+
+## Como Rodar o Projeto Localmente
+
+## Estrutura do Projeto
+.
+├── public/                # Arquivos públicos (como index.html)
+<br>
+├── src/                   # Arquivos de código-fonte do React
+<br>
+│   ├── components/        # Componentes React
+<br>
+│   ├── App.js             # Componente principal do React
+<br>
+│   └── index.js           # Ponto de entrada do React
+<br>
+├── .gitignore             # Arquivos a serem ignorados pelo Git
+<br>
+├── package.json           # Arquivo de configuração do NPM
+<br>
+└── README.md              # Este arquivo
+
+
+Para rodar o projeto localmente, siga os seguintes passos:
+```bash
+### 1. Clone o repositório
+
+Clone o repositório do GitHub para sua máquina local:
+
+
+git clone https://github.com/seu-usuario/host-store-react.git
+
+
+## 2. Instale as dependências
+Entre no diretório do projeto e instale as dependências necessárias:
+
+cd host-store-react
+yarn
