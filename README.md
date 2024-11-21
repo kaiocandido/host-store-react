@@ -37,11 +37,10 @@ Para rodar o projeto localmente, siga os seguintes passos:
 Clone o repositório do GitHub para sua máquina local:
 
 
-git clone https://github.com/seu-usuario/host-store-react.git
+git clone https://github.com/kaiocandido/host-store-react
 
 
 ## 2. Instale as dependências
 Entre no diretório do projeto e instale as dependências necessárias:
 
-cd host-store-react
 yarn
