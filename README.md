@@ -3,7 +3,6 @@
 Este é um projeto de uma aplicação web chamada **Host Store**, desenvolvida com HTML, CSS e React, hospedada na plataforma Vercel. O objetivo do projeto é criar uma loja online simples com a possibilidade de interagir com a interface.
 
 <br>
-<br>
 <a href="https://host-store-react-llqk.vercel.app/">SITE</a>
 <br>
 <br>
