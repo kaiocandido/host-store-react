@@ -9,8 +9,6 @@ Este é um projeto de uma aplicação web chamada **Host Store**, desenvolvida c
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
 - **Vercel**: Plataforma de implantação para front-end.
 
-<a src="https://host-store-react-git-main-kaios-projects-b7dff787.vercel.app/?vercelToolbarCode=h35EmeGg68_bDpv">Site</a>
-
 ## Como Rodar o Projeto Localmente
 
 ## Estrutura do Projeto
